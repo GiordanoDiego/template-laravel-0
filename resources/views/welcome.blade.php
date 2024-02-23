@@ -2,12 +2,6 @@
 
 @section('page-title', 'Home')
 
-@section('main-content')
-<h1>
-    Laravel Start 1
-</h1>
-
-<h2>
-    Ciao {{ $firstName }} {{ $lastName }}
-</h2>
-@endsection
+{{-- 
+    questa pagina è collegata a web.php che a sua volta avrà il contenuto contenente iin lauouts, layouts sarà composto da 3 componenti che sono header main e footer.blade.php
+--}}

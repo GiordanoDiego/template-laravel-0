@@ -1,15 +1,28 @@
 @import "~bootstrap/scss/bootstrap";
 
+header{
+    border: 1px dashed red;
+    .container{
+        border: 2px dashed green;
+            
+        }
+}
 main {
-    background-color: lightcoral;
+    border: 1px dashed red;
+    .container{
+    border: 2px dashed green;
+        
+    }
 }
 
-.gatto-img {
-    height: 200px;
+footer{
+    border: 1px dashed red;
+    .container{
+        border: 2px dashed green;
+            
+        }
 }
 
-.gatto-bg {
-    height: 200px;
-    background-image: url('../img/gatto.webp');
-    background-size: contain;
-}
+
+
+
